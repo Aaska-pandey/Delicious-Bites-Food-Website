@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+:root{
+    --pink:rgb(255, 0, 68);
+}
+
+.bg_img{
+    width:100vw;
+    height:100vh;
+
+    background-image: 
+    url(https://th.bing.com/th/id/OIP.uQQP_6dcKiCT2R0qrEO9TwHaEK?rs=1&pid=ImgDetMain);
+  /*  filter:contrast(100%);*/
+    object-fit: cover; 
+    background-size: cover;
+    background-position:center ;
+  /*  filter: grayscale(70px);*/
+     filter: blur(10px);
+
+
+}
+.heading{
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    top:15%;
+    left:33%;
+    filter: contrast(300%);
+    font-weight: lighter;
+    
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 25px;
+    
+
+    
+}
+
+.box h1{
+    color:var(--pink);
+    text-align: center;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.574);
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar a:hover{
+    cursor: pointer;
+    color: white;
+    text-decoration: underline 5px rgb(255, 0, 68);
+    filter: contrast(200%);
+    
+}
+
+.box{
+  /*  background-color:  black;*/
+    height:400px;
+    width: 700px;
+    border:3px solid black;
+   
+    position: absolute;
+    top: 25%;
+    left:25%;
+    display: flex;
+    scroll-behavior: auto;
+}
+.box_text{
+    background-blend-mode: black;
+    background-image: 
+    url(https://www.kindpng.com/picc/b/57-570570_download-black-shadow-png-background-abu-abu-hitam.png);
+}
+
+.container1{
+    background-color:cadetblue;
+}
+
+.box_img1{
+    filter: contrast(150%);
+    height: 400px;
+    width:300px;
+}
+
+h2{
+    font-size: 25px;
+    padding-top:10px ;
+}
+
+.description{
+    margin-top:15px ;
+    margin-left: 30px;
+    
+}
+.ques{
+    color:white;
+}
+
+input{
+  /*  width:150px;
+    height: 1px;*/
+    font-size: 20px;
+    
+}
+
+.btn{
+    color:white;
+    padding: 5px;
+    border: 2px solid var(--pink);
+    font-size: 20px;
+   /* background-image: 
+    url(https://www.kindpng.com/picc/b/57-570570_download-black-shadow-png-background-abu-abu-hitam.png);
+*/
+    background: transparent;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 50px;
+   /* width:20px;
+    height: 10px;*/
+   
+
+}
+
+.btn a{
+    text-decoration: none;
+    color: white;
+    padding-left:40px ;
+    padding-right: 40px;
+
+   
+    
+   
+}
+    

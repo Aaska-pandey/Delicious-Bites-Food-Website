@@ -7,11 +7,6 @@
 
 ---
 
-## 🍽️ Project Preview
-
-![Delicious Bites Website Screenshot](assets/food_website.png)
-
----
 
 ## 📌 Project Summary
 
